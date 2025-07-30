@@ -11,7 +11,7 @@ void MaiorMenor(float notas[]){
             menor = notas[i];
 
         if(notas[i]> notas[i-1])
-            menor = notas[i];
+            maior = notas[i];
     }
 
     cout << "O maior é: "<< maior<< endl;
